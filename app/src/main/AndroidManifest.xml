@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.migita.daire_demo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/demo"
+        android:label="Daire"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Mode_SelectActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Rehabilitation_SelectActivity" />
+        <activity android:name=".Rehabilitation_DougaActivity" />
+        <activity android:name=".SokectActivity" />
+        <activity android:name=".TestOpenHelper" />
+        <activity android:name=".GraphActivity" />
+        <activity android:name=".Graph_seeActivity" />
+        <activity android:name=".Graph2Activity" />
+        <activity android:name=".Time_resultActivity"></activity>
+    </application>
+
+</manifest>

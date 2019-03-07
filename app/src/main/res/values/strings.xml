@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Daire_demo</string>
+
+
+    <string name="app_name1">TestTimerTaskSimple</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="zero">"00:00.0"</string>
+
+    <string name="naiten">内転</string>
+    <string name="gaiten">外転</string>
+    <string name="kukkyoku">屈曲</string>
+    <string name="sinten">伸展</string>
+
+    <string name="hint_key">company</string>
+    <string name="hint_value">US$price</string>
+    <string name="insert">insert</string>
+    <string name="read">ホームいけクソ！バーカ！</string>
+    <string name="delete">delete</string>
+
+    <string name="time">時間</string>
+
+
+</resources>
